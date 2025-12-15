@@ -20,3 +20,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const isOpen = siteNav.classList.toggle("is-open");
     navToggle.setAttribute("aria-expanded", String(isOpen));
   });
+
+    siteNav.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLAnchorElement)) return;
+    siteNav.classList.remove("is-open");
+    navToggle.setAttribute("aria-expanded", "false");
+  });
