@@ -99,3 +99,21 @@
 .nav-link:hover::after {
   transform: scaleX(1);
 }
+
+.nav-toggle {
+  display: none;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: rgba(212, 175, 55, 0.08);
+  cursor: pointer;
+}
+
+.nav-toggle-line {
+  width: 26px;
+  height: 2px;
+  background: var(--hp-text);
+}
