@@ -29,3 +29,14 @@
   box-shadow: var(--hp-shadow);
   transition: background 200ms ease, box-shadow 200ms ease;
 }
+
+.header-container {
+  width: 100%;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-width: 0;
+  transition: padding 180ms ease;
+}
