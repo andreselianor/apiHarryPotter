@@ -117,3 +117,15 @@
   height: 2px;
   background: var(--hp-text);
 }
+
+.site-header.is-scrolled {
+  background:
+    radial-gradient(1600px 260px at 50% 0%, rgba(212, 175, 55, 0.14), transparent 82%),
+    linear-gradient(
+      180deg,
+      #241a15 0%,
+      #181210 40%,
+      #100e0d 100%
+    );
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.42);
+}
