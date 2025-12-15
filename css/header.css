@@ -16,15 +16,12 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background:
-    radial-gradient(1600px 260px at 50% 0%, rgba(212, 175, 55, 0.22), transparent 80%),
-    linear-gradient(
-      180deg,
-      #2a2018 0%,
-      #1e1713 35%,
-      #14100f 70%,
-      #0f0d0c 100%
-    );
+  background: radial-gradient(
+      1600px 260px at 50% 0%,
+      rgba(212, 175, 55, 0.22),
+      transparent 80%
+    ),
+    linear-gradient(180deg, #2a2018 0%, #1e1713 35%, #14100f 70%, #0f0d0c 100%);
   border-bottom: 1px solid var(--hp-gold-soft);
   box-shadow: var(--hp-shadow);
   transition: background 200ms ease, box-shadow 200ms ease;
@@ -67,7 +64,8 @@
 
 .nav-link {
   text-decoration: none;
-  font-family: "Garamond", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  font-family: "Garamond", "Palatino Linotype", Palatino, "Book Antiqua",
+    Georgia, "Times New Roman", serif;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -90,7 +88,12 @@
   right: 4px;
   bottom: 6px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.9), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 175, 55, 0.9),
+    transparent
+  );
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 160ms ease;
@@ -119,14 +122,12 @@
 }
 
 .site-header.is-scrolled {
-  background:
-    radial-gradient(1600px 260px at 50% 0%, rgba(212, 175, 55, 0.14), transparent 82%),
-    linear-gradient(
-      180deg,
-      #241a15 0%,
-      #181210 40%,
-      #100e0d 100%
-    );
+  background: radial-gradient(
+      1600px 260px at 50% 0%,
+      rgba(212, 175, 55, 0.14),
+      transparent 82%
+    ),
+    linear-gradient(180deg, #241a15 0%, #181210 40%, #100e0d 100%);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.42);
 }
 
@@ -155,13 +156,20 @@
     align-items: flex-start;
     gap: 10px;
     padding: 14px 20px;
-    background:
-      radial-gradient(1600px 260px at 50% 0%, rgba(212, 175, 55, 0.14), transparent 82%),
-      linear-gradient(
-        180deg,
-        #241a15 0%,
-        #181210 40%,
-        #100e0d 100%
-      );
+    background: radial-gradient(
+        1600px 260px at 50% 0%,
+        rgba(212, 175, 55, 0.14),
+        transparent 82%
+      ),
+      linear-gradient(180deg, #241a15 0%, #181210 40%, #100e0d 100%);
     border-bottom: 1px solid var(--hp-gold-soft);
   }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .nav-link {
+    width: 100%;
+  }
+}
