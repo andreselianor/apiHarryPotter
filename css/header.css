@@ -40,3 +40,18 @@
   min-width: 0;
   transition: padding 180ms ease;
 }
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.brand-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.55));
+  transition: height 180ms ease, filter 180ms ease;
+}
