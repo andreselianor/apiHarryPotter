@@ -82,3 +82,20 @@
 .nav-link:hover {
   color: var(--hp-gold);
 }
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 6px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.9), transparent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 160ms ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
