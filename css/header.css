@@ -55,3 +55,12 @@
   filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.55));
   transition: height 180ms ease, filter 180ms ease;
 }
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
