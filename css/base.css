@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'HarryPotterNormalText';
+    src: url('../fonts/text.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HarryPotterTitles';
+    src: url('../fonts/titles.ttf') format('truetype');
+}
+
+body {
+    font-family: 'HarryPotterNormalText', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'HarryPotterTitles', serif;
+    color:darkgoldenrod
+}
