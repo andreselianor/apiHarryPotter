@@ -13,3 +13,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const navToggle = document.getElementById("navToggle");
   const siteNav = document.getElementById("site-nav");
   const siteHeader = document.getElementById("siteHeader");
+
+   if (!navToggle || !siteNav || !siteHeader) return;
+
+  navToggle.addEventListener("click", () => {
+    const isOpen = siteNav.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
