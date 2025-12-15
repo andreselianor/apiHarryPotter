@@ -1,0 +1,13 @@
+:root {
+  --hp-gold: #d4af37;
+  --hp-gold-soft: rgba(212, 175, 55, 0.4);
+
+  --hp-text: rgba(255, 255, 255, 0.92);
+  --hp-text-muted: rgba(255, 255, 255, 0.76);
+
+  --hp-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
