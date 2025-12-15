@@ -11,3 +11,21 @@
 * {
   box-sizing: border-box;
 }
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background:
+    radial-gradient(1600px 260px at 50% 0%, rgba(212, 175, 55, 0.22), transparent 80%),
+    linear-gradient(
+      180deg,
+      #2a2018 0%,
+      #1e1713 35%,
+      #14100f 70%,
+      #0f0d0c 100%
+    );
+  border-bottom: 1px solid var(--hp-gold-soft);
+  box-shadow: var(--hp-shadow);
+  transition: background 200ms ease, box-shadow 200ms ease;
+}
