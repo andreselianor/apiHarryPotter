@@ -10,4 +10,4 @@
 <br>
 
 <h2>Objetivo:</h2>
-<p>Aprender a consumir una api real, teniendonos que adaptar a esta.
+<p>Aprender a consumir una api real, teniendonos que adaptar a esta.</p>
