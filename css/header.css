@@ -129,3 +129,13 @@
     );
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.42);
 }
+
+.site-header.is-scrolled .header-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.site-header.is-scrolled .brand-logo {
+  height: 30px;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.55));
+}
