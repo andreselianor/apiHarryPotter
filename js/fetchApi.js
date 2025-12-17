@@ -1,5 +1,5 @@
 let requestURL = "https://hp-api.onrender.com/api/characters"
-const harrySection = document.getElementById('harrySection');
+const harrySection = document.getElementById('cards-container');
 let cardsNumber = 30;
 
 // Crea las tarjetas
