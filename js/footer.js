@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", async () => {
   const root = document.getElementById("footer-root");
   if (!root) return;
@@ -42,3 +43,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
 });
+=======
+fetch("html/footer.html")
+    .then(res => {
+        if (!res.ok) throw new Error("Footer not found");
+        return res.text();
+    })
+    .then(html => {
+        const footer = document.getElementById("footer");
+        if (footer) footer.innerHTML = html;
+    });
+>>>>>>> 7b32b6a (fix:correct footer injection and script order)
