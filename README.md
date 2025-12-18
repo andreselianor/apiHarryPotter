@@ -1,14 +1,17 @@
 # Proyecto: apiHarryPotter
 
 <img src="images/logoHarryPotter.png">
+<img src="images/websiteHarryPotter1.png">
+<img src="images/websiteHarryPotter2.png">
+
 Descripción
 -----------
-apiHarryPotter es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
+'apiHarryPotter' es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
 
 Autores
 -------
 - David Navarro
-- Yves Andres
+- Yves Elianor
 - Sergio Fernandez
 - María Perez
 - Juan Luís Márquez
@@ -35,7 +38,9 @@ Estructura del proyecto
 Instalación y uso
 -------------
 🚀 Instalación y Uso
+
 1️⃣ Clonar el repositorio
+
 git clone https://github.com/andreselianor/apiHarryPotter.git
 
 2️⃣ Abrir el proyecto
