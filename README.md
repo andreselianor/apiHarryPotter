@@ -22,6 +22,7 @@ Características
 - Consumo de API con JavaScript (`js/fetchApi.js`).
 - Interfaz modular con fragmentos HTML en archivos independientes (`html/header.html`, `html/footer.html`).
 - Estilos organizados en `css/`.
+- CSS común(base.css) para dar consistencia, y archivos independientes a mayores para todo lo que no era común.
 
 Estructura del proyecto
 -----------------------
@@ -31,28 +32,81 @@ Estructura del proyecto
 - `js/` — Lógica JS (fetchApi.js, header.js, footer.js).
 - `images/`, `img/`, `fonts/` — Recursos estáticos.
 
-Cómo ejecutar
+Instalación y uso
 -------------
-El proyecto es estático. Para probarlo localmente se recomienda levantar un servidor HTTP desde la raíz del proyecto:
+🚀 Instalación y Uso
+1️⃣ Clonar el repositorio
+git clone https://github.com/andreselianor/apiHarryPotter.git
 
-Con Python 3:
+2️⃣ Abrir el proyecto
 
-```bash
-python -m http.server 8000
-```
+No es necesario instalar dependencias.
+Solo abre el archivo index.html en tu navegador.
 
-O con `http-server` de npm:
+3️⃣ Versión online
 
-```bash
-npm install -g http-server
-http-server -p 8000
-```
+El proyecto está disponible directamente en:
 
-Luego abrir `http://localhost:8000` en el navegador.
+https://andreselianor.github.io/apiHarryPotter/
 
-Notas sobre la API
+Consumo de la api:
 ------------------
-El archivo `js/fetchApi.js` contiene la lógica para obtener datos. Si la API que usas requiere clave o tiene CORS restringido, configura un proxy o explica cómo obtener la clave.
+## 🧩 Consumo de una API en una Aplicación Web con JavaScript
+
+### 🌐 Acceso a la página web
+- 🖥️ Cuando el usuario entra en una página web, el navegador descarga los archivos principales del proyecto: **HTML**, **CSS** y **JavaScript**.  
+- 🧱 El HTML define la estructura, el CSS el diseño visual y JavaScript controla el comportamiento de la aplicación.
+- ⏳ En este punto, la web aún no muestra datos de la API, solo tiene la estructura preparada para recibirlos.
+
+---
+
+### 🧠 Creación del DOM
+- 🧩 Tras cargar el HTML, el navegador genera el **DOM (Document Object Model)**.
+- 🔧 El DOM permite que JavaScript acceda y modifique los elementos de la página.
+- 🕹️ Gracias al DOM, la web puede reaccionar a eventos como clics o cargas de página.git add .
+
+
+---
+
+### 🔗 Peticiones a la API
+- 📡 Para obtener datos externos, JavaScript utiliza la función **`fetch()`**.
+- 📬 `fetch()` realiza una **petición HTTP GET** a un endpoint de una API.
+- ⚙️ Estas peticiones son **asíncronas**, lo que evita que la página se bloquee mientras espera la respuesta.
+
+---
+
+### 📦 Recepción de datos
+- 📄 La API devuelve los datos en formato **JSON**.
+- 🔄 Mediante `response.json()`, el JSON se convierte en **objetos JavaScript**.
+- 🧠 A partir de este momento, los datos ya pueden manipularse con código.
+
+---
+
+### 🗂️ Almacenamiento y procesamiento
+- 🧾 Los datos se guardan en **arrays u objetos** JavaScript.
+- 🔍 Se pueden recorrer, filtrar o transformar según la lógica de la aplicación.
+- 🧩 Cada objeto contiene propiedades accesibles con notación de punto (`objeto.propiedad`).
+
+---
+
+### 🎨 Generación dinámica del contenido
+- 🏗️ JavaScript crea elementos HTML de forma **dinámica**.
+- ➕ Estos elementos se insertan en el DOM usando métodos como `createElement` o `innerHTML`.
+- 🖼️ El contenido se construye a partir de los datos recibidos de la API.
+
+---
+
+### 👀 Visualización en el navegador
+- 🔄 Al modificarse el DOM, el navegador actualiza la vista automáticamente.
+- ✨ El usuario ve los datos sin necesidad de recargar la página.
+- 🧙‍♂️ La información mostrada proviene directamente de la API.
+
+---
+
+### 🎯 Idea clave
+- 🔑 **La API solo proporciona datos.**
+- 🤝 **JavaScript es el intermediario** que conecta la API con el usuario.
+- 🌉 Se encarga de pedir los datos, procesarlos y mostrarlos de forma interactiva.
 
 Contribuir
 ---------
@@ -61,11 +115,5 @@ Contribuir
 3. Envía un pull request con descripción clara de los cambios.
 
 Licencia
---------
-Indica la licencia del proyecto (por ejemplo MIT) o deja una nota si no hay licencia.
-
-Siguientes pasos recomendados
-----------------------------
-- Documentar el endpoint exacto de la API y ejemplos de respuesta.
-- Añadir capturas o GIFs en la README mostrando la app en acción.
-- Integrar tests o un flujo de build si se añaden herramientas de bundling.
+---------
+CC-BY
