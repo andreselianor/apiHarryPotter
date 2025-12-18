@@ -1,16 +1,14 @@
 # Proyecto: apiHarryPotter
 
-<img src="images/logoHarryPotter.png">
-<img src="images/websiteHarryPotter1.png">
-<img src="images/websiteHarryPotter2.png">
+<img src="images/logoHarryPotter.png" style="text-align: center">
+<img src="images/websiteHarryPotter1.png" width="50%">
+<img src="images/websiteHarryPotter2.png" width="50%">
 
 ## 📝 Descripción
-------------------------
 'apiHarryPotter' es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
 
 
 ## 👥 Autores
-------------------------
 - David Navarro
 - Yves Elianor
 - Sergio Fernandez
@@ -19,12 +17,10 @@
 
 
 ## 🎯 Objetivo
-------------------------
 Aprender a consumir una API real, y forzarnos a adaptarnos a ella.
 
 
 ## ⚙️ Características
-------------------------
 - Consumo de API con JavaScript (`js/fetchApi.js`).
 - Interfaz modular con fragmentos HTML en archivos independientes (`html/header.html`, `html/footer.html`).
 - Estilos organizados en `css/`.
@@ -32,32 +28,30 @@ Aprender a consumir una API real, y forzarnos a adaptarnos a ella.
 
 
 ## 🏗️ Estructura del proyecto
-------------------------
 
 apiHarryPotter/
 ├── index.html
 ├── css/
-│   ├── base.css
-│   ├── cards.css
-│   └── header.css
-│   └── footer.css
+│ ├── base.css
+│ ├── cards.css
+│ ├── header.css
+│ └── footer.css
 ├── js/
-│   ├── fetchApi.js
-│   ├── header.js
-│   └── footer.js
+│ ├── fetchApi.js
+│ ├── header.js
+│ └── footer.js
 ├── html/
-│   ├── header.html
-│   └── footer.html
+│ ├── header.html
+│ └── footer.html
 ├── images/
-│   └── logoHarryPotter.png
-│   └── websiteHarryPotter1.png
-│   └── websiteHarryPotter2.png
+│ ├── logoHarryPotter.png
+│ ├── websiteHarryPotter1.png
+│ └── websiteHarryPotter2.png
 ├── fonts/
 └── README.md
 
 
 ## 💻 Instalación y Uso
-------------------------
 🚀 Instalación y Uso
 
 1️⃣ Clonar el repositorio
@@ -77,7 +71,6 @@ https://andreselianor.github.io/apiHarryPotter/
 
 
 ## 🧩 Consumo de la API en una Aplicación Web 
-------------------------
 
 ### 🎯 Idea clave
 - 🔑 **La API solo proporciona datos en formato JSON.**
@@ -117,12 +110,10 @@ https://andreselianor.github.io/apiHarryPotter/
 
 
 ## 🤝 Contribuir
----------
 1. Haz fork del repositorio.
 2. Crea una rama: `git checkout -b feat/mi-cambio`.
 3. Envía un pull request con descripción clara de los cambios.
 
 
 ## 📄 Licencia
----------
 CC-BY
