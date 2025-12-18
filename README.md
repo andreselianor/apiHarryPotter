@@ -1,4 +1,4 @@
-# Proyecto: Consuming Api Harry Potter
+# Proyecto: Harry Potter's Api
 <p align="center">
   <img src="images/logoHarryPotter.png" alt="Logo Harry Potter" width="200"/>
 </p>
