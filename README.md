@@ -1,11 +1,12 @@
 # Proyecto: apiHarryPotter
-<div style="display:flex;justify-content:center">
-<img src="images/logoHarryPotter.png" style="text-align: center">
-</div>
-<div style="display:flex; justify-content:space-between;gap: 5px">
-<img src="images/websiteHarryPotter1.png" width="50%" alt="imagesweb1" title="api Harry Potter">
-<img src="images/websiteHarryPotter2.png" width="50%" alt="imagesweb2" title="website Harry Potter">
-</div>
+<p align="center">
+  <img src="images/logoHarryPotter.png" alt="Logo Harry Potter" width="200"/>
+</p>
+<p align="center">
+  <img src="images/websiteHarryPotter1.png" alt="Website 1" title="api Harry Potter" width="45%" />
+  <img src="images/websiteHarryPotter2.png" alt="Website 2" title="website Harry Potter" width="45%" />
+</p>
+
 
 ## 📝 Descripción
 'apiHarryPotter' es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
