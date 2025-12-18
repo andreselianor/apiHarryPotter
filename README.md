@@ -1,4 +1,4 @@
-# Proyecto: apiHarryPotter
+# Proyecto: Consuming Api Harry Potter
 <p align="center">
   <img src="images/logoHarryPotter.png" alt="Logo Harry Potter" width="200"/>
 </p>
@@ -12,10 +12,10 @@
 'apiHarryPotter' es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
 
 
-## 👥 Autores
+## 👨‍💻 Autores
 - David Navarro
 - Yves Elianor
-- Sergio Fernandez
+- Sergio Fernández
 - María Perez
 - Juan Luís Márquez
 
