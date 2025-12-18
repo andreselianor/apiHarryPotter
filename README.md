@@ -1,8 +1,9 @@
 # Proyecto: apiHarryPotter
 
+<img src="images/logoHarryPotter.png">
 Descripción
 -----------
-apiHarryPotter es una aplicación web estática que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch`. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
+apiHarryPotter es una aplicación web que consume datos relacionados con el universo de Harry Potter mediante peticiones `fetch` a un archivo JSON. Muestra información de personajes y recursos relacionados, y sirve como ejercicio práctico para aprender a consumir APIs reales y adaptar la UI a los datos recibidos.
 
 Autores
 -------
@@ -14,12 +15,12 @@ Autores
 
 Objetivo
 --------
-Aprender a consumir una API real y adaptar la interfaz y la lógica del frontend a los datos que entregue.
+Aprender a consumir una API real, y forzarnos a adaptarnos a ella.
 
 Características
 --------------
 - Consumo de API con JavaScript (`js/fetchApi.js`).
-- Interfaz modular con fragmentos HTML (`html/header.html`, `html/footer.html`).
+- Interfaz modular con fragmentos HTML en archivos independientes (`html/header.html`, `html/footer.html`).
 - Estilos organizados en `css/`.
 
 Estructura del proyecto
@@ -68,4 +69,3 @@ Siguientes pasos recomendados
 - Documentar el endpoint exacto de la API y ejemplos de respuesta.
 - Añadir capturas o GIFs en la README mostrando la app en acción.
 - Integrar tests o un flujo de build si se añaden herramientas de bundling.
-
